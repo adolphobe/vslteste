@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Página de VSL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  
+  <style>
+    /*-- VARIAVEIS */
+    :root{
+        --maxima-largura-comments: 575px;        
+        --fundo-pagina: url('https://www.gannett-cdn.com/presto/2019/01/02/USAT/9e1db6f2-f886-4eef-921f-38760ebdc2f3-food.jpg?crop=5759,3239,x1,y546&width=1600&height=800&format=pjpg&auto=webp');
+        /*--fundo-pagina: url('https://monicacabral.com.br/wp-content/uploads/2019/03/naom_5b48bbaf7b898.jpg');*/
+        --fundo-pagina-opacidade: rgba(0, 0, 0, 0.7);
+    }
+    /* FIM VARIAVEIS */ 
+  </style>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <body>
+
+<div class="top-content-bg">
+<div class="top-content">
+   <div class="head">
+    <img class="img" src="https://andreaestradas.com/v2/assets/img/ultrasecreto-1-1.png">
+    <div class="text">Essa é uma headline de exemplo da página da VSL</div>
+    <div class="sub_text">Essa é uma sub-headline de exemplo da página da VSL</div>
+
+    <div class="vsl"><img src="https://wallpaperaccess.com/full/6392691.jpg" width="100%" style="opacity:0.7;"></div>
+
+    <div class="esconder">
+    <p style="font-size: 12px;"><img src="img/play black.png" style="vertical-align: bottom;"> POR FAVOR, VERIFIQUE SE O SEU SOM ESTÁ LIGADO</p>
+    <!--<p style="font-size: 12px;"><img src="img/play white.png" style="vertical-align: bottom;"> POR FAVOR, VERIFIQUE SE O SEU SOM ESTÁ LIGADO</p>-->
+    </div>
+
+    <div class="mostrar" style="margin-top:30px;">
+    <a href="#" class="a-btn" style="text-decoration: none;">
+        <span class="span-btn">SIM, QUERO COMPRAR ISSO <br> DE UMA VEZ POR TODAS</span>
+        <span class="span-btn2">(Atenção: vagas limitadas)</span>
+      </a>
+    </div>
+
+
+   </div><!-- fim da head-->
+</div><!-- fim top-content-->
+</div><!-- fim do top-content-bg-->
+
+
+   <div class="box_comentarios">
+    <div class="total">21 comentários</div>
+    
+    <div class="fb-comments" style="margin-top: 5px;">
+        <div class="fb-comments-wrapper" data-id="1">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c1.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Lisbeth Cáceres</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Estoy muy feliz !!! ¡¡Muy feliz!! Gracias Marcelo, pensé que la Guía no funcionaría porque ya había hecho todo para adelgazar, probé pastillas, tés y cafés que supuestamente ayudan a perder peso, incluso esos botes de batidos, pero aún así quise probar y ahora parece que soy otra persona</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>3</likes>
+        <date>4 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="2">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Luisa Herrera</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">El también me ayudó, bajé 22kg, muy agradecida, me ayuda hasta ahora con esas deliciosas recetas.</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>9</likes>
+        <date>5 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="3">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Mariana Manrique</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Ese video cambió mi vida, ya perdí 20 kilos en menos de 2 meses, muchas gracias.</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>11</likes>
+        <date>12 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="4">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Claudia Lopéz</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Hace un año tomé esa vitamina durante 2 semanas, acompañada de una dieta de azúcar y carbohidratos, perdí 12kg y me sentí mucho mejor, ahora voy a tomarlo nuevamente.</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>15</likes>
+        <date>19 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="5">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Viviana Patricia Mercado</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Sufría de diabetes tipo 2, este hombre me salvó la vida ... ¡¡Estoy muy agradecida con Marcelo y el Dr Jhon y todo su equipo por enseñarme esto !! Me encanta !!! Gracias por hacerne sentir completamente nueva.</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>17</likes>
+        <date>24 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="6">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Ana Estrada</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Ya lo estoy probando, eliminé 7 kilos, el cambio es grandioso, mis ropas me quedaban todas apretadas, ahora quedan cómododas. Tuve una operación de la columna por eso que engordé mucho 15kg, estaba sintiendo mucho dolor en la columna. Ahora mi dolor se alivió mucho despues de bajar de peso, ya puedo caminar como antes 🙏🙏🙏🙏🙏.</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>24</likes>
+        <date>31 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="7">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg">
+        </td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Vanessa Parra</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">¡Solo me peso todo el dia jaja, Ahhhh!!!!, ¡no puedo creer que esté funcionando! Ya perdí 6 kilos 🙈</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>22</likes>
+        <date>39 min</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+
+        <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Ver mais 5 comentários</button>
+        <div id="more">
+        <div class="fb-comments-wrapper">
+        <table class="fb-comments-comment" data-id="8">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg">
+        </td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Fernanda Rocha</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">¡Que alegría he recuperado mi autoestima y mi esperanza, Gracias Dr. por todo lo sigo aplicando todo lo que tienes en el programa, hoy estoy con 9 kg menos… Eres el mejor😍</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>41</likes>
+        <date>1 h</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="9">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg">
+        </td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Daniela Medina</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Mi hermano llegó a perder mas de 11kg en 15 días...voy a comenzar hoy mismo jijij</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>40</likes>
+        <date>1 h</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="10">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg">
+        </td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Alejandra Cifuentes</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">No saben todo lo que lloré anteriormente por no estar con el cuerpo que deseaba😪, me alegra tanta emoción porque todo lo que me enseñó marcelo y el doctor me devolvieron la vida de nuevo, solo es admiración por hacer esto por nosotras❤️</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>47</likes>
+        <date>1 h</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper" data-id="11">
+        <table class="fb-comments-comment">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg"></td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Manuela Courtis Chavez</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">¡Estoy fascinada con encontrar esto, miles de Clínicas e industrias farmacéuticas quebrarían si todos los doctores recomendarían esto...Muchas gracias Dr. Jhon por tu conocimiento!</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>50</likes>
+        <date>1 h</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        <div class="fb-comments-wrapper">
+        <table class="fb-comments-comment" data-id="12">
+        <tbody>
+        <tr>
+        <td rowspan="3" class="fb-comments-comment-img"><img src="https://andreaestradas.com/v2/assets/img/comentarios/c2.jpeg">
+        </td>
+        <td>
+        <div class="fb-comments-comment-name">
+        <name>Milagros Isabel Henao</name>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-text">Para mi todas estas cosas de las hormonas y manipulaciones de las empresas siempre fueron una tremenda mentira, pero en seriooo... si hubiera sabido eso antes, ni siquiera me imagino cuanto me hubiera ahorrado en pastillas y otros programas de dietas que lo que hacen es venderte sus productos y batidos procesados con quien sabe que...</td>
+        </tr>
+        <tr>
+        <td class="fb-comments-comment-actions">
+        <like>Curtir</like>
+        ·
+        <reply>Responder</reply>
+        ·
+        <likes>66</likes>
+        <date>1 h</date>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </div>
+
+
+
+
+    </div><!-- fecha box comentarios-->
+
+
+    <div class="botao_baixo">
+    <div class="mostrar" style="margin-top:30px;">
+        <a href="#" class="a-btn" style="text-decoration: none;">
+            <span class="span-btn">SIM, QUERO COMPRAR ISSO <br> DE UMA VEZ POR TODAS</span>
+            <span class="span-btn2">(Atenção: vagas limitadas)</span>
+          </a>
+        </div>
+    </div>
+
+<div class="footer">Termos de Serviço | Politica de Privacidade</div>
+  </body>
+
+
+
+<script>
+$('like').on('click', function () {
+    var target = $(this).closest('[data-id]');
+    var target = target.data('id');
+
+    var qtd_likes = $('[data-id="'+target+'"]').find('likes').text();
+    var likes = parseInt(qtd_likes);
+
+    if($('[data-id="'+target+'"]').find('likes').hasClass('curtido')){
+    //alterações se tiver curtido
+    $('[data-id="'+target+'"]').find('like').css({"font-weight": "normal", "color": "#4267b2"});
+    $('[data-id="'+target+'"]').find('likes').removeClass("curtido");
+    $('[data-id="'+target+'"]').find('likes').html(likes-1);
+    
+    
+    }else{
+
+    //alterações se não tiver curtido
+    $('[data-id="'+target+'"]').find('like').css({"font-weight": "bold", "color": "#90949c"});
+    $('[data-id="'+target+'"]').find('likes').addClass("curtido");
+    $('[data-id="'+target+'"]').find('likes').html(likes+1);
+    }
+});
+
+function loadMore(){
+    $("#more").css("display", "block");
+    $(".fb-comments-loadmore").css("display", "none");
+}
+</script>
+
+</html>
